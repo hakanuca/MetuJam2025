@@ -8,6 +8,8 @@ TagManager:
   - Wall
   - time
   - Gravitable
+  - Pushable
+  - Deadly
   layers:
   - Default
   - TransparentFX
