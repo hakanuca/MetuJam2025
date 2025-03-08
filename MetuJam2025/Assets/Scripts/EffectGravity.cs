@@ -2,34 +2,44 @@ using UnityEngine;
 
 public class EffectGravity : MonoBehaviour
 {
-    private Rigidbody2D[] rigidbodies;
-    private bool gravityEnabled = true;
+    private bool isYFrozen = false; // Başlangıçta hareket serbest
 
     void Start()
     {
-
-        rigidbodies = FindObjectsByType<Rigidbody2D>(FindObjectsSortMode.None);
-
-        SetGravity(true);
+        FreezeYPosition(isYFrozen);
     }
 
     void Update()
     {
-
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.G)) // "G" tuşuna basınca aç/kapat
         {
-            gravityEnabled = !gravityEnabled;
-            SetGravity(gravityEnabled);
+            isYFrozen = !isYFrozen;
+            FreezeYPosition(isYFrozen);
         }
     }
 
-    public void SetGravity(bool enableGravity)
+    void FreezeYPosition(bool freeze)
     {
-        foreach (var rb in rigidbodies)
+        // Sahnedeki tüm Rigidbody2D nesnelerini bul
+        Rigidbody2D[] rigidbodies = FindObjectsByType<Rigidbody2D>(FindObjectsSortMode.None);
+
+        for (int i = 0; i < rigidbodies.Length; i++)
         {
-            rb.gravityScale = enableGravity ? 1 : 0;
+            if (freeze)
+            {
+                rigidbodies[i].constraints = RigidbodyConstraints2D.FreezePositionY; // Y ekseninde hareketi dondur
+                Debug.Log(rigidbodies[i].gameObject.name + " - Y Position Frozen");
+            }
+            else
+            {
+                rigidbodies[i].constraints = RigidbodyConstraints2D.None; // Hareketi serbest bırak
+                Debug.Log(rigidbodies[i].gameObject.name + " - Y Position Unfrozen");
+
+                // 🚀 **Küçük bir aşağı itme kuvveti uygula**
+                rigidbodies[i].AddForce(new Vector2(0, -2f), ForceMode2D.Impulse);
+            }
         }
 
-
+        Debug.Log("Y Position Freeze: " + (freeze ? "ON" : "OFF"));
     }
 }
