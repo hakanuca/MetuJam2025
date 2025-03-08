@@ -2,10 +2,6 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    public Animator doorAnimator;
-    public Rigidbody2D doorRigidbody;
-    public Collider2D doorTrigger;
-    
     private bool isPaused = false;
 
     void Update()
@@ -14,17 +10,26 @@ public class Door : MonoBehaviour
         {
             isPaused = !isPaused;
             
-            // Pause/Resume animation
-            if (doorAnimator != null)
-                doorAnimator.speed = isPaused ? 0 : 1;
-            
-            // Freeze movement
-            if (doorRigidbody != null)
-                doorRigidbody.bodyType = isPaused ? RigidbodyType2D.Static : RigidbodyType2D.Dynamic;
-            
-            // Disable/Enable triggers
-            if (doorTrigger != null)
-                doorTrigger.enabled = !isPaused;
+            // Find all objects with the tag "time"
+            GameObject[] timeTaggedObjects = GameObject.FindGameObjectsWithTag("time");
+
+            foreach (GameObject obj in timeTaggedObjects)
+            {
+                // Pause/Resume animation if Animator exists
+                Animator animator = obj.GetComponent<Animator>();
+                if (animator != null)
+                    animator.speed = isPaused ? 0 : 1;
+
+                // Freeze/unfreeze movement if Rigidbody2D exists
+                Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
+                if (rb != null)
+                    rb.bodyType = isPaused ? RigidbodyType2D.Static : RigidbodyType2D.Dynamic;
+
+                // Disable/Enable Collider2D if exists
+                Collider2D col = obj.GetComponent<Collider2D>();
+                if (col != null)
+                    col.enabled = !isPaused;
+            }
         }
     }
 }
