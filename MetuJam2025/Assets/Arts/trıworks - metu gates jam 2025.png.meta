@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 46e8117cc35bd134295e9b8e53c03dc1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8722410335389340573
+    second: "tr\u0131works - metu gates jam 2025_0"
+  - first:
+      213: 8402927345680379657
+    second: "tr\u0131works - metu gates jam 2025_1"
+  - first:
+      213: 4439155772408088081
+    second: "tr\u0131works - metu gates jam 2025_2"
+  - first:
+      213: -6233850552762488336
+    second: "tr\u0131works - metu gates jam 2025_3"
+  - first:
+      213: 2036619267575573958
+    second: "tr\u0131works - metu gates jam 2025_4"
+  - first:
+      213: -3372717249906709543
+    second: "tr\u0131works - metu gates jam 2025_5"
+  - first:
+      213: -4318266898694774236
+    second: "tr\u0131works - metu gates jam 2025_6"
+  - first:
+      213: 2676687549386563258
+    second: "tr\u0131works - metu gates jam 2025_7"
+  - first:
+      213: 8522819689789286435
+    second: "tr\u0131works - metu gates jam 2025_8"
+  - first:
+      213: 987759363663603591
+    second: "tr\u0131works - metu gates jam 2025_9"
+  - first:
+      213: 5555609740629392050
+    second: "tr\u0131works - metu gates jam 2025_10"
+  - first:
+      213: -6146920463939613608
+    second: "tr\u0131works - metu gates jam 2025_11"
+  - first:
+      213: -2718668010818494088
+    second: "tr\u0131works - metu gates jam 2025_12"
+  - first:
+      213: -183581727276589272
+    second: "tr\u0131works - metu gates jam 2025_13"
+  - first:
+      213: -208394332118446212
+    second: "tr\u0131works - metu gates jam 2025_14"
+  - first:
+      213: 2454822489404624043
+    second: "tr\u0131works - metu gates jam 2025_15"
+  - first:
+      213: 2469148545436813119
+    second: "tr\u0131works - metu gates jam 2025_16"
+  - first:
+      213: -6827519972391581559
+    second: "tr\u0131works - metu gates jam 2025_17"
+  - first:
+      213: -7326351415251528584
+    second: "tr\u0131works - metu gates jam 2025_18"
+  - first:
+      213: 6182093841964249950
+    second: "tr\u0131works - metu gates jam 2025_19"
+  - first:
+      213: -3643402990073010805
+    second: "tr\u0131works - metu gates jam 2025_20"
+  - first:
+      213: -6692827200217478689
+    second: "tr\u0131works - metu gates jam 2025_21"
+  - first:
+      213: 8135095655742312326
+    second: "tr\u0131works - metu gates jam 2025_22"
+  - first:
+      213: -6022570727958891107
+    second: "tr\u0131works - metu gates jam 2025_23"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 86
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93d31a9cf93c0970800000000000000
+      internalID: 8722410335389340573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_1"
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2
+        width: 85
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90fe1b876e13d9470800000000000000
+      internalID: 8402927345680379657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_2"
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 2
+        width: 66
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1164205c7ac0b9d30800000000000000
+      internalID: 4439155772408088081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_3"
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 2
+        width: 102
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f928bb53f9ec79a0800000000000000
+      internalID: -6233850552762488336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_4"
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 0
+        width: 84
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdee82fe66834c10800000000000000
+      internalID: 2036619267575573958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_5"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 2
+        width: 86
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db6a77d783b131d0800000000000000
+      internalID: -3372717249906709543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_6"
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 2
+        width: 83
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42268f1822f6214c0800000000000000
+      internalID: -4318266898694774236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_7"
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 2
+        width: 207
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe95ebf421852520800000000000000
+      internalID: 2676687549386563258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_8"
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 2
+        width: 102
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328689e1a53274670800000000000000
+      internalID: 8522819689789286435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_9"
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 2
+        width: 70
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7872cba68e935bd00800000000000000
+      internalID: 987759363663603591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_10"
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 2
+        width: 87
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba3aeccf9d791d40800000000000000
+      internalID: 5555609740629392050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_11"
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 0
+        width: 83
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ccc44e760c1baa0800000000000000
+      internalID: -6146920463939613608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_12"
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 2
+        width: 79
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87122f829d9554ad0800000000000000
+      internalID: -2718668010818494088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_13"
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 2
+        width: 85
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f1d664469c37df0800000000000000
+      internalID: -183581727276589272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_14"
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 2
+        width: 87
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f00e48572ab1df0800000000000000
+      internalID: -208394332118446212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_15"
+      rect:
+        serializedVersion: 2
+        x: 2364
+        y: 2
+        width: 70
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac4a934c08411220800000000000000
+      internalID: 2454822489404624043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_16"
+      rect:
+        serializedVersion: 2
+        x: 2487
+        y: 2
+        width: 75
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f370f6c158d244220800000000000000
+      internalID: 2469148545436813119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_17"
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 0
+        width: 77
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98807b442c6cf31a0800000000000000
+      internalID: -6827519972391581559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_18"
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 2
+        width: 85
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874904a5432935a90800000000000000
+      internalID: -7326351415251528584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_19"
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 2
+        width: 101
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53b86a58953bc550800000000000000
+      internalID: 6182093841964249950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_20"
+      rect:
+        serializedVersion: 2
+        x: 3161
+        y: 2
+        width: 72
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b852a1bb848007dc0800000000000000
+      internalID: -3643402990073010805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_21"
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 0
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd907fb1f1d4e13a0800000000000000
+      internalID: -6692827200217478689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_22"
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 2
+        width: 72
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f0856b56aa5e070800000000000000
+      internalID: 8135095655742312326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tr\u0131works - metu gates jam 2025_23"
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 2
+        width: 71
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d953855f4d78b6ca0800000000000000
+      internalID: -6022570727958891107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "tr\u0131works - metu gates jam 2025_0": 8722410335389340573
+      "tr\u0131works - metu gates jam 2025_1": 8402927345680379657
+      "tr\u0131works - metu gates jam 2025_10": 5555609740629392050
+      "tr\u0131works - metu gates jam 2025_11": -6146920463939613608
+      "tr\u0131works - metu gates jam 2025_12": -2718668010818494088
+      "tr\u0131works - metu gates jam 2025_13": -183581727276589272
+      "tr\u0131works - metu gates jam 2025_14": -208394332118446212
+      "tr\u0131works - metu gates jam 2025_15": 2454822489404624043
+      "tr\u0131works - metu gates jam 2025_16": 2469148545436813119
+      "tr\u0131works - metu gates jam 2025_17": -6827519972391581559
+      "tr\u0131works - metu gates jam 2025_18": -7326351415251528584
+      "tr\u0131works - metu gates jam 2025_19": 6182093841964249950
+      "tr\u0131works - metu gates jam 2025_2": 4439155772408088081
+      "tr\u0131works - metu gates jam 2025_20": -3643402990073010805
+      "tr\u0131works - metu gates jam 2025_21": -6692827200217478689
+      "tr\u0131works - metu gates jam 2025_22": 8135095655742312326
+      "tr\u0131works - metu gates jam 2025_23": -6022570727958891107
+      "tr\u0131works - metu gates jam 2025_3": -6233850552762488336
+      "tr\u0131works - metu gates jam 2025_4": 2036619267575573958
+      "tr\u0131works - metu gates jam 2025_5": -3372717249906709543
+      "tr\u0131works - metu gates jam 2025_6": -4318266898694774236
+      "tr\u0131works - metu gates jam 2025_7": 2676687549386563258
+      "tr\u0131works - metu gates jam 2025_8": 8522819689789286435
+      "tr\u0131works - metu gates jam 2025_9": 987759363663603591
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
