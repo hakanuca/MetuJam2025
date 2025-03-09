@@ -2,55 +2,65 @@ using UnityEngine;
 
 public class EffectGravity : MonoBehaviour
 {
-    private bool isYFrozen = false; // Başlangıçta hareket serbest
+    private bool isYFrozen = false; // Initially, movement is free
+    private Rigidbody2D playerRb;
 
     void Start()
     {
-        // Karakterin başlangıçta etkilenmemesi için constraints'ini sıfırla
-        Rigidbody2D playerRb = GameObject.FindGameObjectWithTag("Player")?.GetComponent<Rigidbody2D>();
+        // Reset constraints to ensure the character is not affected initially
+        playerRb = GameObject.FindGameObjectWithTag("Player")?.GetComponent<Rigidbody2D>();
         if (playerRb != null)
         {
-            playerRb.constraints = RigidbodyConstraints2D.None; // Karakter başlangıçta serbest olacak
+            playerRb.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation; // Character is free initially, freeze rotation on Z axis
         }
 
-        FreezeYPosition(isYFrozen); // Diğer nesneleri başlangıçta etkilesin
+        FreezeYPosition(isYFrozen); // Affect other objects initially
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G)) // "G" tuşuna basınca aç/kapat
+        if (Input.GetKeyDown(KeyCode.G)) // Toggle on pressing "G" key
         {
             isYFrozen = !isYFrozen;
+            Debug.Log("Toggling Y freeze: " + isYFrozen);
             FreezeYPosition(isYFrozen);
         }
     }
 
     void FreezeYPosition(bool freeze)
     {
-        // Sahnedeki tüm Rigidbody2D nesnelerini bul
+        // Find all Rigidbody2D objects in the scene
         Rigidbody2D[] rigidbodies = FindObjectsByType<Rigidbody2D>(FindObjectsSortMode.None);
 
         for (int i = 0; i < rigidbodies.Length; i++)
         {
-            // Eğer nesne "Player" tag'ine sahipse, işlem yapma (karakter hariç!)
+            // Skip if the object has the "Player" tag (except the character)
             if (rigidbodies[i].CompareTag("Player"))
                 continue;
 
             if (freeze)
             {
-                rigidbodies[i].constraints = RigidbodyConstraints2D.FreezePositionY; // Y ekseninde hareketi dondur
-                Debug.Log(rigidbodies[i].gameObject.name + " - Y Position Frozen");
+                rigidbodies[i].constraints = RigidbodyConstraints2D.FreezePositionY; // Freeze movement on Y axis
+                Debug.Log("Freezing Y position for: " + rigidbodies[i].gameObject.name);
             }
             else
             {
-                rigidbodies[i].constraints = RigidbodyConstraints2D.None; // Hareketi serbest bırak
-                Debug.Log(rigidbodies[i].gameObject.name + " - Y Position Unfrozen");
-
-                // 🚀 **Küçük bir aşağı itme kuvveti uygula**
-                rigidbodies[i].AddForce(new Vector2(0, -2f), ForceMode2D.Impulse);
+                rigidbodies[i].constraints = RigidbodyConstraints2D.None; // Release movement
+                Debug.Log("Releasing Y position for: " + rigidbodies[i].gameObject.name);
             }
         }
 
-        Debug.Log("Y Position Freeze: " + (freeze ? "ON" : "OFF"));
+        // Handle the player's Rigidbody2D separately
+        if (playerRb != null)
+        {
+            if (freeze)
+            {
+                playerRb.constraints = RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation; // Freeze Y movement, keep rotation frozen
+            }
+            else
+            {
+                playerRb.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation; // Release Y movement, keep rotation frozen
+            }
+        }
     }
 }
