@@ -11,7 +11,7 @@ public class EffectGravity : MonoBehaviour
         playerRb = GameObject.FindGameObjectWithTag("Player")?.GetComponent<Rigidbody2D>();
         if (playerRb != null)
         {
-            playerRb.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation; // Character is free initially, freeze rotation on Z axis
+            playerRb.constraints = RigidbodyConstraints2D.FreezeRotation; // Sadece Z ekseni rotasyonu donduruluyor
         }
 
         FreezeYPosition(isYFrozen); // Affect other objects initially
@@ -55,11 +55,11 @@ public class EffectGravity : MonoBehaviour
         {
             if (freeze)
             {
-                playerRb.constraints = RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation; // Freeze Y movement, keep rotation frozen
+                playerRb.constraints = RigidbodyConstraints2D.FreezeRotation; // Sadece Z ekseni rotasyonu donduruluyor
             }
             else
             {
-                playerRb.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation; // Release Y movement, keep rotation frozen
+                playerRb.constraints = RigidbodyConstraints2D.FreezeRotation; // Z ekseni rotasyonu dondurulmuş kalıyor
             }
         }
     }

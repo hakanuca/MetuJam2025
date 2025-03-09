@@ -11,7 +11,7 @@ public class BridgeTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Pushable")) // Kutunun tag'ı "PushableBox" olmalı
+        if (other.CompareTag("Pushable")) // Kutunun tag'ı "PushableBox" olmalı kontrol et
         {
             bridge.SetActive(true); // Köprüyü aç
             Debug.Log("Bridge Activated!");
