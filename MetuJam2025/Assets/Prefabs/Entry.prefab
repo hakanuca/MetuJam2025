@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3937921079764364141}
   - component: {fileID: 342645653152829218}
   - component: {fileID: 8958173061266777547}
+  - component: {fileID: 6261593436109921938}
   m_Layer: 0
   m_Name: Entry
   m_TagString: time
@@ -153,6 +154,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &6261593436109921938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32225288742952565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309068d3596380142872b20951127993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6528602611258821627
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,9 +177,10 @@ GameObject:
   - component: {fileID: 3122765410366817511}
   - component: {fileID: 8202104972129790993}
   - component: {fileID: 7194917443064112747}
+  - component: {fileID: 5908189185557837682}
   m_Layer: 0
   m_Name: EntryCollider (1)
-  m_TagString: Untagged
+  m_TagString: Lower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -247,6 +261,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.0056021, y: 1.9612365}
   m_EdgeRadius: 0
+--- !u!114 &5908189185557837682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6528602611258821627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309068d3596380142872b20951127993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6853220714977655728
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,9 +284,10 @@ GameObject:
   - component: {fileID: 6459026662501031301}
   - component: {fileID: 3891470961179623347}
   - component: {fileID: 7434869887553930512}
+  - component: {fileID: 7118911607712887673}
   m_Layer: 0
   m_Name: EntryCollider
-  m_TagString: Untagged
+  m_TagString: Upper
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -341,3 +368,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.9020833, y: 1.9908135}
   m_EdgeRadius: 0
+--- !u!114 &7118911607712887673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6853220714977655728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309068d3596380142872b20951127993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

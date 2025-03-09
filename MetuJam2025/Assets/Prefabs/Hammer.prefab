@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1463361527664267212}
   - component: {fileID: 6474619449465343704}
   - component: {fileID: 3901930818157334720}
+  - component: {fileID: 2503226025956329447}
+  - component: {fileID: 1590056194071425628}
   m_Layer: 0
   m_Name: Hammer
   m_TagString: time
@@ -111,6 +113,45 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!50 &2503226025956329447
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2892002182507449450}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!114 &1590056194071425628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2892002182507449450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b17c2a35473e82c4190af907fae4257b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7564365430460122305
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,6 +163,7 @@ GameObject:
   - component: {fileID: 358846326578007130}
   - component: {fileID: 635645539512724887}
   - component: {fileID: 5339046205076721465}
+  - component: {fileID: 7933801795755754893}
   m_Layer: 0
   m_Name: HammerCollider
   m_TagString: Untagged
@@ -205,3 +247,15 @@ MonoBehaviour:
   speed: 5
   distance: 3
   startUpwards: 1
+--- !u!114 &7933801795755754893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7564365430460122305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309068d3596380142872b20951127993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TimePuse : MonoBehaviour
+public class TimeStopper : MonoBehaviour
 {
     private bool isPaused = false;
 
@@ -9,7 +9,7 @@ public class TimePuse : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             isPaused = !isPaused;
-            
+
             // Find all objects with the tag "time"
             GameObject[] timeTaggedObjects = GameObject.FindGameObjectsWithTag("time");
 
@@ -20,10 +20,26 @@ public class TimePuse : MonoBehaviour
                 if (animator != null)
                     animator.speed = isPaused ? 0 : 1;
 
-                // Stop/resume physics simulation while keeping movement data
+                // Freeze/unfreeze movement if Rigidbody2D exists
                 Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
                 if (rb != null)
-                    rb.simulated = !isPaused;
+                {
+                    if (isPaused)
+                    {
+                        rb.linearVelocity = Vector2.zero;
+                        rb.angularVelocity = 0f;
+                        rb.bodyType = RigidbodyType2D.Static;
+                    }
+                    else
+                    {
+                        rb.bodyType = RigidbodyType2D.Dynamic;
+                    }
+                }
+
+                // Disable/Enable Collider2D if exists
+                Collider2D col = obj.GetComponent<Collider2D>();
+                if (col != null)
+                    col.enabled = !isPaused;
             }
         }
     }
