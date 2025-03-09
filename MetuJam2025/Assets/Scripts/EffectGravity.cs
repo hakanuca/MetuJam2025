@@ -6,7 +6,14 @@ public class EffectGravity : MonoBehaviour
 
     void Start()
     {
-        FreezeYPosition(isYFrozen);
+        // Karakterin başlangıçta etkilenmemesi için constraints'ini sıfırla
+        Rigidbody2D playerRb = GameObject.FindGameObjectWithTag("Player")?.GetComponent<Rigidbody2D>();
+        if (playerRb != null)
+        {
+            playerRb.constraints = RigidbodyConstraints2D.None; // Karakter başlangıçta serbest olacak
+        }
+
+        FreezeYPosition(isYFrozen); // Diğer nesneleri başlangıçta etkilesin
     }
 
     void Update()
@@ -25,6 +32,10 @@ public class EffectGravity : MonoBehaviour
 
         for (int i = 0; i < rigidbodies.Length; i++)
         {
+            // Eğer nesne "Player" tag'ine sahipse, işlem yapma (karakter hariç!)
+            if (rigidbodies[i].CompareTag("Player"))
+                continue;
+
             if (freeze)
             {
                 rigidbodies[i].constraints = RigidbodyConstraints2D.FreezePositionY; // Y ekseninde hareketi dondur
