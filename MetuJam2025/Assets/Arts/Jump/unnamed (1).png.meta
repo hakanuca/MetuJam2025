@@ -324,12 +324,6 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-<<<<<<< Updated upstream:MetuJam2025/Assets/Arts/Elevator/unnamed.png.meta
-      unnamed_0: 2829232388215122354
-      unnamed_1: -3157726242096756337
-      unnamed_2: -3521443743514171454
-      unnamed_3: 4944269250904071358
-=======
       unnamed (1)_0: 8957446413176083872
       unnamed (1)_1: 8463421500685414658
       unnamed (1)_2: 2130198980136374067
@@ -337,7 +331,6 @@ TextureImporter:
       unnamed (1)_4: -7230974379244993750
       unnamed (1)_5: 5162092818361159885
       unnamed (1)_6: 5052468136669929470
->>>>>>> Stashed changes:MetuJam2025/Assets/Arts/Jump/unnamed (1).png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
