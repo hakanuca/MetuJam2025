@@ -10,6 +10,8 @@ TagManager:
   - Gravitable
   - Pushable
   - Deadly
+  - Upper
+  - Lower
   layers:
   - Default
   - TransparentFX

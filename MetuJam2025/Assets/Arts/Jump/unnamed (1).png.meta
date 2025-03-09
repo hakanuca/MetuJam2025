@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: fe4115c428020be4ca6c03101017481c
+guid: 49b73fbcf4fbbcc4eaa7a47d417b0e3a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2829232388215122354
-    second: unnamed_0
+      213: 8957446413176083872
+    second: unnamed (1)_0
   - first:
-      213: -3157726242096756337
-    second: unnamed_1
+      213: 8463421500685414658
+    second: unnamed (1)_1
   - first:
-      213: -3521443743514171454
-    second: unnamed_2
+      213: 2130198980136374067
+    second: unnamed (1)_2
   - first:
-      213: 4944269250904071358
-    second: unnamed_3
+      213: 7913583975773381044
+    second: unnamed (1)_3
+  - first:
+      213: -7230974379244993750
+    second: unnamed (1)_4
+  - first:
+      213: 5162092818361159885
+    second: unnamed (1)_5
+  - first:
+      213: 5052468136669929470
+    second: unnamed (1)_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -148,7 +157,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: unnamed_0
+      name: unnamed (1)_0
       rect:
         serializedVersion: 2
         x: 5
@@ -163,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b9a79efdd3734720800000000000000
-      internalID: 2829232388215122354
+      spriteID: 0a515ffdd0e3f4c70800000000000000
+      internalID: 8957446413176083872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: unnamed_1
+      name: unnamed (1)_1
       rect:
         serializedVersion: 2
         x: 36
-        y: 223
-        width: 19
-        height: 33
+        y: 224
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,17 +194,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f89c4e196b08d24d0800000000000000
-      internalID: -3157726242096756337
+      spriteID: 201f1c4830d147570800000000000000
+      internalID: 8463421500685414658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: unnamed_2
+      name: unnamed (1)_2
       rect:
         serializedVersion: 2
         x: 67
+        y: 225
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f8de7afacff8d10800000000000000
+      internalID: 2130198980136374067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: unnamed (1)_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 225
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b12230b2b2b2dd60800000000000000
+      internalID: 7913583975773381044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: unnamed (1)_4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23c6290d1b66ab90800000000000000
+      internalID: -7230974379244993750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: unnamed (1)_5
+      rect:
+        serializedVersion: 2
+        x: 160
         y: 223
         width: 19
         height: 33
@@ -207,19 +282,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c7e05b9291512fc0800000000000000
-      internalID: -3521443743514171454
+      spriteID: dc01300811073a740800000000000000
+      internalID: 5162092818361159885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: unnamed_3
+      name: unnamed (1)_6
       rect:
         serializedVersion: 2
-        x: 98
+        x: 191
         y: 223
-        width: 20
+        width: 19
         height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -229,8 +304,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebc160610b29d9440800000000000000
-      internalID: 4944269250904071358
+      spriteID: effd03d4009fd1640800000000000000
+      internalID: 5052468136669929470
       vertices: []
       indices: 
       edges: []
@@ -249,10 +324,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< Updated upstream:MetuJam2025/Assets/Arts/Elevator/unnamed.png.meta
       unnamed_0: 2829232388215122354
       unnamed_1: -3157726242096756337
       unnamed_2: -3521443743514171454
       unnamed_3: 4944269250904071358
+=======
+      unnamed (1)_0: 8957446413176083872
+      unnamed (1)_1: 8463421500685414658
+      unnamed (1)_2: 2130198980136374067
+      unnamed (1)_3: 7913583975773381044
+      unnamed (1)_4: -7230974379244993750
+      unnamed (1)_5: 5162092818361159885
+      unnamed (1)_6: 5052468136669929470
+>>>>>>> Stashed changes:MetuJam2025/Assets/Arts/Jump/unnamed (1).png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
